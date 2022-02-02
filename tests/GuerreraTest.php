@@ -12,7 +12,7 @@ class GuerreraTest extends TestCase{
     public function testHeridaMuchaVida(){
         $this->warrior->herida();
         $this->assertEquals("viva",$this->warrior->getEstado());
-        $this->assertEquals(20,$this->warrior->getVida());
+        $this->assertEquals(5,$this->warrior->getVida());
     }
 
     public function testHeridaPocaVida(){
